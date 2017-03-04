@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Stro",
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneStromberg/buffer-message.git"
+  },
   "license": "ISC",
   "dependencies": {
     "buffer": "^5.0.5",
