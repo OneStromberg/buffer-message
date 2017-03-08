@@ -2,6 +2,9 @@ import _ from 'lodash';
 import { Buffer } from 'buffer'; 
 
 class BufferMessage {
+    static serialize = (obj) => {
+        return BufferMessage.create(orb);
+    }
     static create = (obj) => {
         var pairs = _.toPairs(obj);
         var message = pairs.length + ',' + _.zip(...pairs).toString();
