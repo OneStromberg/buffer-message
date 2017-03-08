@@ -27,4 +27,14 @@
 	import BufferMessage from 'buffer-message';
 
 	let object = BufferMessage.deserialize(message);
+
+	/*
+	And your object is:
+
+		{
+			a: 1,
+			b: 2
+		}
+		
+	*/
 ```
