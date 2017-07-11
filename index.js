@@ -1,2 +1,2 @@
-var BufferMessage = require('./lib');
+const BufferMessage = require('./lib');
 module.exports = BufferMessage;
